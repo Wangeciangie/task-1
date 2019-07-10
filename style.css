@@ -1,0 +1,59 @@
+body{
+	background-color:yellow;
+}
+h1{
+	color:blue;
+	font-family: vernada;
+	font-size: 300%;
+}
+
+p{
+	color:red;
+	font-family: courier;
+	font-size: 160%
+	border:1px solid powderblue;
+	padding:0px;
+	margin:50px;
+}
+
+#Tee{
+	color:green;
+}
+
+p.NDERIS{
+	color: black;
+}
+
+a:link{
+	color:green;
+	background-color: transparent;
+	text-decoration: none;
+}
+a:visited{
+	color:blue;
+	background-color: transparent;
+	text-decoration: none;
+
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:link,a:visited{
+	background-color: none;
+	color: white;
+	padding: 15px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+a:hover,a:active{
+	background-color: red;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<body>
+
+ 		<h1 style="font family:Cabria;font-size:150%;color:Blue;background-color:black">Embedded Systems task 1
+ 		</h1>
+		<br>
+
+		
+<h2>Questions</h2>
+
+<!-- listing the questions -->
+<ol>
+	<li>What is a micro-controller and/or a microprocessor? </li>
+	<li>List different types of microcontrollers and/or microprocessors</li>
+	<li>Differences between a micro-controller and a microprocessor</li>
+</ol>
+<h3>Solution</h3>
+<p> 
+A micro-controller also referred to as (microcontroller unit-MCU) is an integrated circuit usually used for a specific application and designed to implement certain tasks such as controlling portions of an electronic system through a microprocessor unit, memory and some peripherals.
+<br>
+A micro-processor also referred to as the central processing unit is a component that performs instructions and tasks involved in a computer processing. It accepts digital data as input (logic and sequential), processes it according to the instructions stored in the memory, and provides the result as output.
+<br>
+<img src="/pictures/em.jpg" alt= "The microprocessor" style="width=500px; height=600px;">
+</p>
+<p>There three types of microcontrollers which include;
+<ul>
+<li>Microcontroller 8051</li>
+<li>AVR Microcontrollers</li>
+<li>PIC Microcontrollers</li>
+</ul>
+</p>
+<h4>Types of microprocessors include;</h4>
+<ul>
+<li>CISC- Complex Instruction set microprocessors</li>
+
+<p>
+Complex Instruction set microprocessors classify a microprocessor in which orders can be performed together along with other low level activities. These types of processors performs the different tasks like downloading, uploading, recalling data into the memory card and recalling data from the memory card. Apart from these tasks, it also does complex mathematical calculations in a single command.
+</p>
+
+<li>RISC -  Reduced Instruction set microprocessor</li>
+
+<p>
+These types of processors are made according to the function in which the microprocessor can carry out small things in specific command. In this way these processors completes more commands at a faster rate.
+</p>
+
+<li>ASIC - Application Specific Integrated Circuit</li>
+
+<p>
+Superscalar processor facsimiles the hardware on the processor to perform various tasks at a time. These processors can be used for ALUs or multipliers. They have different operational units and these processors can carry out more than a one command by continuously transmitting several instructions to the extra operational units inside the processor.
+</p>
+
+<li>Superscalar Processors</li>
+
+<p>
+These processors are used for particular purposes that includes of automotive emissions control or personal digital assistant’s computer. This type of processor is made with proper specification, but apart from these it can also be made with off the shelf gears.
+</p>
+
+<li>DSP’s – Digital signal Microprocessors</li>
+
+<p>
+These processors are used to encode and decode the videos or to convert the D/A (digital to analog) &A/D (analog to digital).
+</p>
+
+</ul>
+<br>
+<h4>Differences between a microprocessor and a microcontroller</h4>
+<ol>
+<li>Microprocessors consists of external peripherals circuit whereas microcontrollers consists of RAM, ROM, and EEPROM etc. embedded in it as a single chip.
+</li>
+<li>
+In terms of memory, tasks performed by microcontrollers are limited in space. This is because, MCU uses on-chip embedded Flash memory in which to store and execute its program. This memory space is finite since most MCU flash memory have a maximum of 2Mbytes of program memory. This may prove to be a limiting factor, depending on the application. On the other hand, MPUs do not have memory constraints in the same way. They use external memory to provide program and data storage. The program is typically stored in non-volatile memory, such as NAND or serial Flash. The amount of DRAM and NVM you can connect to the processor is in the range of hundreds of Mbytes and even Gbytes for NAND.
+</li>
+<li>
+Another difference is power consumption. By embedding its own power supply, an MCU needs just one single voltage power rail. By comparison, an MPU requires several difference voltage rails for the external components, core, DDR etc. The developer needs to cater for this with additional power ICs / converters on- board.
+</li>
+<li>
+Microprocessors have less number of registers hence more operations are memory based and more complex. Tasks performed by microprocessors are software development, Game development, website, documents making etc. On the other hand microcontrollers have more number of registers, hence the programs are easier to write. They include applications such as washing machine, mp3 player among others.
+</li>
+<li>
+Processing speed of microcontrollers is about 8 MHz to 50 MHz, but in contrary processing speed of general microprocessors is above 1 GHz which makes microprocessors work much faster than microcontrollers.	
+</li>
+</ol>
+</body>
+
+</html>
